@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 
 const BaseHeader: React.FC = ({children}) => {
 

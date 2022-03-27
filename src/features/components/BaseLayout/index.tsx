@@ -6,6 +6,7 @@ const BaseLayout: React.FC = ({children}) => {
     return (
         <div className="c-app">
           <BaseHeader></BaseHeader>
+          {children}
           <header className="c-app-header">
             <img src={logo} className="c-app-logo" alt="logo" />
             <p>
