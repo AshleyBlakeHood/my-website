@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../../logo.svg';
 import BaseHeader from '../BaseHeader';
 
 const BaseLayout: React.FC = ({children}) => {
@@ -8,7 +7,6 @@ const BaseLayout: React.FC = ({children}) => {
           <BaseHeader></BaseHeader>
           {children}
           <header className="c-app-header">
-            <img src={logo} className="c-app-logo" alt="logo" />
             <p>
               Ashley Blake-Hood
             </p>
